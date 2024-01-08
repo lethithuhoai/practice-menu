@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+.menu-icon {
+  float: right;
+  margin: 20px;
+  font-size: 22px;
+  cursor: pointer;
+}
+.side-bar {
+  width: 250px;
+  background: #001068;
+}
+.menu-item li i {
+  color: aliceblue;
+}
+.menu-item {
+  display: flex;
+  /* padding-left: 20px; */
+}
+.list-menu .menu-item {
+  font-size: 20px;
+}
+ul.list-menu > li.menu-item i {
+  padding-top: 19px;
+  padding-left: 20px;
+}
+ul.list-menu > li.menu-item a {
+  padding-left: 20px;
+}
+.list-menu {
+  background: #001068;
+}
+.list-menu ul li {
+  background: #001068;
+}
+.menu-icon ul li {
+  background: white;
+}
+.menu-item i {
+  color: white;
+}
+.list-menu li.menu-icon {
+  display: flex;
+}
+ul.list-menu li a {
+  display: block;
+  padding: 20px 25px;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+#sidebar-menu i {
+  padding-top: 30px;
+}
+#sidebar-menu a {
+  padding-top: 30px;
+}
+
+ul.list-menu > li.menu-item:hover {
+  background-color: #f6b400;
+}
+/* ul.list-menu > li.menu-item > ul.multi-card a:hover {
+  background-color: #f6b400;
+} */
+ul.list-menu > li.menu-item > ul.multi-card {
+  margin-left: 250px;
+}
+ul.list-menu li.menu-item {
+  position: relative;
+}
+ul.list-menu > li.menu-item > ul.multi-card {
+  position: absolute;
+  display: none;
+}
+ul.list-menu > li.menu-item > ul.multi-card li:hover {
+  background-color: #f6b400;
+}
+ul.list-menu > li.menu-item:hover > ul.multi-card {
+  position: absolute;
+  display: block;
+}
